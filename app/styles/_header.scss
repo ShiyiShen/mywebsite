@@ -1,17 +1,27 @@
 header{
-  margin-top:100px;
-  border-bottom: 1px dashed #333;
-  h1{
-    font-style: italic;
-  }
+	#name{
+		background-color: #fff;
+		text-align: center;
+		font-family: BebasNeueBold,Arial,sans-serif;
+		font-size: 36px;
+	}
+	#map{
+		background-image:url('http://shiyishen.com/pic/map_pittsburgh.png');
+		height:150px;
+		margin-top:100px;
+	}
+	#my-profile-image div{
+		border:8px solid #fff; 
+		height:200px;
+		width:200px; 
+		margin:0 auto;
+		margin-top: -100px;
+		border-radius:100px;
+		background-image: url("	http://shiyishen.com/pic/my_profile_image.jpg");
+	}
 
-  #my-profile-image div{
-	border:8px solid #fff; 
-	height:200px;
-	width:200px; 
-	margin:0 auto;
-	margin-top: -100px;
-	border-radius:100px;
-	background-image: url("	http://shiyishen.com/pic/my_profile_image.jpg");
-  }
+	.color-1{background: none repeat scroll 0 0 #37bc9b; height:15px;}
+	.color-2{background: none repeat scroll 0 0 #8cc152; height:15px;}
+	.color-3{background: none repeat scroll 0 0 #f6bb42; height:15px;}
+	.color-4{background: none repeat scroll 0 0 #434a54; height:15px;}
 }
