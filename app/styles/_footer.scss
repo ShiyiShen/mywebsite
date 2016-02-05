@@ -1,6 +1,11 @@
 footer{
-  border-top: 1px dashed #333;
+  background-color: #434a54;
+  color: #fff;
+  padding:15px;
   h1{
     font-style: italic;
   }
+
+ h3{display:inline-block;margin-left:15px;}
+ .glyphicon{padding-right:6px;}
 }

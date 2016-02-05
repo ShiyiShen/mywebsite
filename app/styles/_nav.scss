@@ -2,9 +2,11 @@ nav{
   font-size: 1.95em;
   border-bottom: 1px dotted #ddd;
   text-transform: uppercase;
+  text-align: center;
   ul{
     margin: 1vw 0 1vw 1rem;;
     padding: 1vw 0;
+    display: block;
     list-style-type: none;
     li{
       padding: 0 4vw 0 0;
@@ -14,8 +16,11 @@ nav{
   a{
     font-size: 1.6rem;
     font-weight: 800;
+    text-decoration: none;
     &:hover{
       color: cornflowerblue;
+      text-decoration: none;
+
     }
   }
 }
