@@ -12,9 +12,9 @@ angular.module('app')
     $locationProvider.html5Mode(true)
     $routeProvider
       .when('/', {templateUrl: 'home.html'})
-      .when('/gists', {controller: 'GithubCtrl', templateUrl: 'gists.html'})
-      .when('/swag', { templateUrl: 'swag.html'})
-      .when('/swank', { templateUrl: 'swank.html'})
+      .when('/contact', {controller: 'GithubCtrl', templateUrl: 'contact.html'})
+      //.when('/swag', { templateUrl: 'swag.html'})
+      //.when('/swank', { templateUrl: 'swank.html'})
   })
 
   .controller('GithubCtrl', function ($scope, $sce, GithubSvc) {
